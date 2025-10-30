@@ -174,7 +174,7 @@ Vermelho ON → Aguarda → Vermelho OFF → Repete
 
 ---
 
-## 🐛 Troubleshooting (Resolução de Problemas)
+## 🐛 Resolução de Problemas
 
 ### Problema: LEDs não acendem
 **Possíveis causas:**
