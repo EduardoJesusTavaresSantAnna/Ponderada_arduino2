@@ -33,7 +33,7 @@ Este projeto implementa um semáforo simples utilizando Arduino, simulando o fun
 ### Software
 <!-- Liste os softwares necessários -->
 
-- Arduino IDE (versão X.X.X ou superior)
+- Arduino IDE (versão 1.8.0 ou superior)
 - Biblioteca XYZ (se aplicável)
 - Outros softwares necessários
 
@@ -47,15 +47,15 @@ Este projeto implementa um semáforo simples utilizando Arduino, simulando o fun
 **Conexões:**
 ```
 LED Vermelho:
-  - Anodo (+) -> Resistor 220Ω -> Pino Digital X
+  - Anodo (+) -> Resistor 220Ω -> Pino Digital 13
   - Catodo (-) -> GND
 
 LED Amarelo:
-  - Anodo (+) -> Resistor 220Ω -> Pino Digital Y
+  - Anodo (+) -> Resistor 220Ω -> Pino Digital 12
   - Catodo (-) -> GND
 
 LED Verde:
-  - Anodo (+) -> Resistor 220Ω -> Pino Digital Z
+  - Anodo (+) -> Resistor 220Ω -> Pino Digital 11
   - Catodo (-) -> GND
 ```
 
@@ -72,9 +72,9 @@ LED Verde:
 
 ```cpp
 // Definição dos pinos
-const int LED_VERMELHO = X;
-const int LED_AMARELO = Y;
-const int LED_VERDE = Z;
+const int LED_VERMELHO = 13;
+const int LED_AMARELO = 12;
+const int LED_VERDE = 11;
 
 // Tempos de cada fase (em milissegundos)
 const int TEMPO_VERMELHO = 5000;
@@ -146,9 +146,9 @@ const int TEMPO_VERDE = 5000;
 Para usar pinos diferentes, altere as definições:
 
 ```cpp
-const int LED_VERMELHO = X;  // Substitua X pelo número do pino
-const int LED_AMARELO = Y;
-const int LED_VERDE = Z;
+const int LED_VERMELHO = 13;  // Substitua 13 pelo número do pino desejado
+const int LED_AMARELO = 12;
+const int LED_VERDE = 11;
 ```
 
 ---

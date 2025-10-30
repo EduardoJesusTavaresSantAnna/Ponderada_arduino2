@@ -131,9 +131,9 @@ R: Não necessariamente. Adapte o template à complexidade do seu projeto. Proje
 R: Sim! O template é um ponto de partida. Adicione seções que façam sentido para seu projeto.
 
 **P: Como adicionar imagens?**
-R: Crie uma pasta `imagens/` ou `assets/` no seu repositório e use a sintaxe:
+R: Crie uma pasta `imagens/` no seu repositório e use a sintaxe:
 ```markdown
-![Descrição da imagem](caminho/para/imagem.png)
+![Descrição da imagem](imagens/nome-da-imagem.png)
 ```
 
 **P: O template serve para outros projetos Arduino?**
